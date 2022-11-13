@@ -1,0 +1,50 @@
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/ksvrnFj0')))()
+local Window = OrionLib:MakeWindow({Name = "🏆 Champion Hub", HidePremium = false,SaveConfig = true, ConfigFolder = "Champion"})
+ 
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "YouTube: Champion Hub"
+})
+local Section = Tab:AddSection({
+	Name = "Discord: https://discord.gg/vF43x2Mz"
+})
+
+local Tab = Window:MakeTab({
+	Name = "Adopt Me",
+	PremiumOnly = false
+})
+	 Tab:AddButton({   
+	Name = "VG Hub",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end    
+})
+ Tab:AddButton({   
+	Name = "Eclipse Hub",
+	Callback = function()
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end    
+})
+local Section = Tab:AddSection({
+	Name = "Coming Soon!"
+})
+local Tab = Window:MakeTab({
+	Name = "Murder Mystery 2",
+	PremiumOnly = false
+})
+Tab:AddButton({   
+	Name = "Eclipse Hub",
+	Callback = function()
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end    
+})
+local Section = Tab:AddSection({
+	Name = "Coming Soon!"
+})
+local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	PremiumOnly = false
+})
