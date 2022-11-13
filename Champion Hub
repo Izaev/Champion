@@ -48,3 +48,18 @@ local Tab = Window:MakeTab({
 	Name = "Blox Fruits",
 	PremiumOnly = false
 })
+Tab:AddButton({   
+	Name = "NEVAHUB",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end    
+})
+Tab:AddButton({   
+	Name = "Xenonhub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AkiraNus/UniquehubKak/main/FreeCr.Xenonhub"))()
+end    
+})
+local Section = Tab:AddSection({
+	Name = "Coming Soon!"
+})
